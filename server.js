@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const stripe = require('stripe')('');
+const stripe = require('stripe')('TOKEN');
 
 const app = express();
 const port = process.env.PORT || 3000;
