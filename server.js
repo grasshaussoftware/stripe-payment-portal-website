@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const stripe = require('stripe')('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');
+const stripe = require('stripe')('');
 
 const app = express();
 const port = process.env.PORT || 3000;
